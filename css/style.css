@@ -6,6 +6,11 @@ img {
   max-width: 100%;
 }
 
+.container {
+  width: 1135px;
+  margin: 0 auto;
+}
+
 @font-face {
   font-family: "Tahoma" sans-serif;
   font-weight: 400;
