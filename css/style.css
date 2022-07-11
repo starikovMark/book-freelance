@@ -308,9 +308,13 @@ template {
   display: none;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: "Tahoma" sans-serif;
+  font-family: "Tahoma";
 }
 
 img {
@@ -335,8 +339,7 @@ img {
   align-items: center;
   justify-content: space-between;
   background-color: rgb(241, 241, 241);
-  padding: 12px;
-  font-family: "Tahoma";
+  padding: 12px 0;
 }
 .navbar-menu {
   list-style-type: none;
@@ -352,14 +355,99 @@ img {
 .navbar-menu__link {
   text-decoration: none;
   color: #202020;
-  font-size: 14px;
+  font-size: font-size 14px;
   font-weight: 400;
 }
 .navbar-login {
-  font-size: 14px;
+  font-size: font-size 14px;
+  text-decoration: none;
+  color: #202020;
 }
 .navbar-book__name {
-  font-size: 14px;
+  font-size: font-size 14px;
   font-weight: 700;
   text-transform: uppercase;
+  text-decoration: none;
+  color: #202020;
+}
+
+.hero {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+.block-hero {
+  display: flex;
+  align-items: center;
+}
+.block-hero__image {
+  width: 460px;
+  margin-right: 122px;
+}
+.block-hero__title {
+  font-size: 54px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.block-hero__subtitle {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 48px;
+}
+.block-hero__name-author {
+  font-size: 24px;
+  margin-bottom: 22px;
+}
+.block-hero__info {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 49px;
+}
+.block-hero__price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 47px;
+}
+.block-hero__pricetag {
+  font-size: 55px;
+  font-weight: 400;
+  margin-right: 64px;
+}
+.block-hero__love {
+  margin-right: 10px;
+}
+.block-hero__favorites {
+  font-size: 16px;
+  text-decoration: none;
+  color: #202020;
+}
+.block-hero__button-primary {
+  padding: 24px 60px;
+  background-color: #F89C02;
+  border: 2px solid #F89C02;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 18px;
+}
+.block-hero__button-outline {
+  display: inline-block;
+  padding: 24px 60px;
+  font-weight: 700;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #F89C02;
+  border: none;
+  border: 2px solid #F89C02;
+  text-decoration: none;
+}
+
+.info-hero {
+  font-size: 16px;
+  font-weight: 400;
+  flex-basis: 45%;
+  margin-bottom: 16px;
 }
