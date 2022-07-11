@@ -517,3 +517,28 @@ img {
 .readers__image-people {
   margin-bottom: 25px;
 }
+
+.footer {
+  background-color: rgb(241, 241, 241);
+}
+.footer__block {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 61px;
+  padding-bottom: 91px;
+}
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+}
+.footer__title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+.footer__title-info {
+  font-size: 16px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  color: #202020;
+}
