@@ -460,12 +460,6 @@ img {
   display: flex;
   padding: 95px 0;
 }
-.about-book__book-name {
-  font-size: 32px;
-  font-weight: 700;
-  margin-top: 0;
-  margin-bottom: 35px;
-}
 .about-book__text {
   max-width: 454px;
   margin-right: 134px;
@@ -502,4 +496,24 @@ img {
   width: 108px;
   height: 108px;
   margin-right: 18px;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.readers__block {
+  padding-top: 86px;
+  padding-bottom: 102px;
+}
+.readers__image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.readers__image-people {
+  margin-bottom: 25px;
 }
